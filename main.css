@@ -1,0 +1,200 @@
+/*****************************************************************? fontss ?*****************************************************************/
+/* fonts for my website */
+@import url('https://fonts.googleapis.com/css?family=Rubik');/*import link for my title/subtitle font*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');/*import link for my body font*/
+
+/* supplies: ohuhu, prismacolours, posca markers, acrylic paints, gouache paints */
+
+/******************************************************************? general ?***************************************************************/
+
+body { /* body contents, main background colour */
+   font-family: "Raleway"; /*sets body font family to Raleway*/
+ background-color:#647565;/*Sets background colour*/
+  margin: 0px;/*defaults no margins for the whole page, lets me adjust freely within classes*/
+}
+
+/******************************************************************? nav bar  ?*************************************************************/
+
+.navbar { /* actual bar background of the nav bar */
+  background-color: #121c2d; /*sets background colour for the nav bar*/
+  padding: 15px;/*increases padding to 15px*/
+  display: flex;/*sets display to flex for free movement*/
+  margin: 0;/*sets margin to 0 so that the nav bar spans across the full length of the page*/
+}
+
+.logo { /* the lil image on the very top left of the page */
+  width: 80px;/*sets width*/
+  height: 40px;/*sets height*/
+  margin-right: 950px;/*pushes logo to the left*/
+  margin-left: 0px;/*keeps logo on the left*/
+  margin-bottom: 0px;/*Keeps logo within the bar*/
+  margin-top: 0px;/*aligns logo within the bar*/
+}
+
+.nav-links { /* navigation link positioning */
+  display: flex;/*sets display to flex*/
+  margin-right: 20px;/*sets margin 20*/
+  margin-top: 10px;/*sets margin to 0*/
+  margin-right: 0;/*sets margin to 0*/
+}
+
+.nav-links a { /* navigation link styling (this also includes the lines on the right of each of them) */
+  color: #8aad7b;/*link colour*/
+  text-decoration: none;/*no text decor*/
+  padding: 8px 16px;/*padding to separate the link text and divisions*/
+  border-left-width: 0;/* border width*/
+  border-top-width: 0;/*border width*/
+  border-bottom-width: 0;/*border width*/
+  border-right-width: 1px;/*border width*/
+  border-style: solid;/*birder style*/
+  border-color: aliceblue;/*border colour*/
+  font-size: 19px;/*link size*/
+}
+
+span:hover { /*hover animation thingy*/
+  text-decoration: underline;/*underlines on hover*/
+  text-decoration-color: #acefb6;  /*colours on hover*/
+}
+
+/*********************************************************? homepage stuff ?****************************************************************/
+
+.banner { /* the epic looking intro banner which i spent FAR too long organising  */
+  height: 500px;/*height*/
+  width: 100%;/*width*/
+  border-style: double;/*border style*/
+  border-bottom-width: 20px;/*border width*/
+  border-bottom-color: #243b3e;/*border colour*/
+  border-top-color: #243b3e;/*colour*/
+}
+
+.homepageimage { /* the images on the left of my descriptive intro text */
+ display: inline-block;/*display*/
+ border: #23081e 5px;/*border colour*/
+ margin-left: 100px;/*margin*/
+ margin-top: 50px;/*margin*/
+ margin-right:50px;/*margin*/
+ height: 400px;/*height*/
+ width: 400px;/*width*/
+ border-style: solid;/*border style*/
+ border-width: 20px;/*border width*/
+}
+
+.homepagesubheading { /*subheadings on the homepage, also on the other pages*/
+  border-style: double;/*.border style*/
+  border-radius: 20px;/*curve on the border*/
+  padding: 15px;/*padding*/
+  border-width: 10px;/*border thickness*/
+  background-color: #23081e;/*background colour*/
+  color: aliceblue;/*colour of text*/
+  border-color: #8a324c;/*border colour*/
+  flex-wrap: wrap;/*wraps*/
+  margin-left: 600px;/*margin*/
+  margin-top: -470px;/*margin top*/
+  margin-right: 450px;/*margin right*/
+  font-size: 30px;/*font size*/
+  font-weight: bold;/*font weight*/
+  font-family: "Rubik";/*font family*/
+}
+
+.homepageintrotext {/*homepage main text bodye*/
+  margin-left: 600px;/*margin*/
+  margin-top: 5px;/*margin*/
+  margin-right: 50px;/*margin*/
+  padding: 30px;/*padding*/
+  font-family: "Raleway";/*font family*/
+  border-width: 10px;/*border width*/
+  border-style: double;/*border style*/
+  border-color: #eca75d;/*border colour*/
+  background-color: #644545;/*background colour*/
+  color:aliceblue;/*text colour*/
+  font-size: 25px;/*text size*/
+  font-weight: lighter;/*font boldness (thinner)*/
+}
+/*********************************************************? reccomendations stuff ?****************************************************************/
+
+.recbanner {/*reccomendations page banner styling*/
+  height: 100%;/*height*/
+  width: 100%;/*width*/
+  border-style: solid;/*border styling*/
+  border-bottom-width: 15px;/*border width*/
+  border-top-width: 15px;/*border width*/
+  border-color:#eaac48;/*border colour*/
+}
+
+.recsubheading {/*reccomendations page subheading*/
+  border-style: double;/*border styling*/
+  border-radius: 20px;/*curve of the border*/
+  padding: 15px;/*padding for text*/
+  border-width: 10px;/*width*/
+  background-color: #23081e;/*text background colour*/
+  color: aliceblue;/*text colour*/
+  border-color: #8a324c;/*border colour*/
+  flex-wrap: wrap;/*wraps around other objects*/
+  margin-left: 600px;/*left margin*/
+  margin-top: -470px;/*top margin*/
+  margin-right: 535px;/*right margin*/
+  font-size: 25px;/*text font size*/
+  font-weight: bold;/*font weight*/
+  font-family: "Rubik";/*font style*/
+}
+
+/*********************************************************? rankings stuff ?****************************************************************/
+
+.rankingimage { /*image requirements for the rankings page*/
+ display: flex;/*display set to flex*/
+ flex-direction: column;/*flex direction set to column*/
+ align-items: center; /*aligns image to center*/
+ border: #23081e 5px;/*border colour and width*/
+ margin-left: 400px;/*left margin*/
+ margin-top: 50px;/*top margin*/
+ margin-right:50px;/*right margin*/
+ height: 400px;/*height of the image*/
+ width: 600px;/*width of the margin*/
+ border-style: solid;/*border styling*/
+ border-width: 20px;/*border width*/
+}
+
+.rankingstars { /* star ratings for each item*/
+  color:#eaac48;
+  border-style: double;/*border styling*/
+  border-radius: 20px;/*border radius*/
+  padding: 9px;/*padding*/
+  border-width: 10px;/*.*/
+  background-color: #23081e;/*.*/
+  border-color: #8a324c;/*.*/
+
+  text-align: center; /*aligns stars in the center */
+
+  font-size: 40px;/*font size*/
+  font-weight: bold;/*bold*/
+  
+  display: flex; /*display set to flex*/
+  flex-direction:column; /*direction set to column*/
+  
+  /*margins*/
+  margin-left: 570px;
+  margin-right: 615px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.rankingtext {
+  display: inline-block;
+ /*margins*/
+ margin-right: 200px;
+ margin-left: 200px;
+ margin-top: 0px;
+
+ /*other text settings*/
+  padding: 30px;/*.*/
+  font-family: "Raleway";/*.*/
+  border-width: 10px;/*.*/
+  border-style: double;/*.*/
+  border-color: #eca75d;/*.*/
+  background-color: #644545;/*.*/
+  color:aliceblue;/*.*/
+  font-size: 25px;/*.*/
+  text-align: center;
+}
+
+
